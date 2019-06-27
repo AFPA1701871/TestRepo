@@ -2,6 +2,7 @@ function modifieDessert(e)
 {/* commentaire*/
     e.target.textContent = prompt("quel dessert",e.target.textContent);
 }
+/*nouvelle branche */
 function ajoutDessert (){
     var nouvLi = document.createElement("li");
     nouvLi.textContent = prompt("quel dessert");
