@@ -1,5 +1,5 @@
 function modifieDessert(e)
-{
+{/* commentaire*/
     e.target.textContent = prompt("quel dessert",e.target.textContent);
 }
 function ajoutDessert (){
